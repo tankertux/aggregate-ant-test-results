@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="outside.tests.ATestClass" tests="3" failures="0" errors="0" timestamp="2014-02-03T17:33:14" hostname="M-HQ80SL1" time="0.001">
+  <properties/>
+  <testcase name="tautology" classname="outside.tests.ATestClass" time="0.0"/>
+  <testcase name="sanityCheck" classname="outside.tests.ATestClass" time="0.0"/>
+  <testcase name="passes" classname="outside.tests.ATestClass" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

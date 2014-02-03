@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="another.external.ExampleTest" tests="1" failures="0" errors="0" timestamp="2014-02-03T17:33:14" hostname="M-HQ80SL1" time="0.001">
+  <properties/>
+  <testcase name="willAlwaysPass" classname="another.external.ExampleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

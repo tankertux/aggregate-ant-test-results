@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "junit:junit:4.11"
+}
+
+//  Uncomment this if you want ONLY the aggregate report
+//test { testReport = false }
+
+task runTestsFromJar( type: TestReport ) {
+    def reportDir = file("$buildDir/reports/anttests")
+    def antTestResultFiles = files("src/rawResults/binary/test")
+    inputs.dir antTestResultFiles
+    outputs.dir reportDir
+    destinationDir = reportDir
+    reportOn test, antTestResultFiles
+}
